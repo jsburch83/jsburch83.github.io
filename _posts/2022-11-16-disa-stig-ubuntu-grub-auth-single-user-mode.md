@@ -7,7 +7,7 @@ If you apply the STIG fix for this finding it will cause grub to ask for autheni
 
 1. Edit this file: /etc/grub.d/10_linux  
 
-  Find the line like this: 
+Find the line like this: 
 ```
 echo "menuentry '$(echo "$os" | grub_quote)' ${CLASS}
 ```

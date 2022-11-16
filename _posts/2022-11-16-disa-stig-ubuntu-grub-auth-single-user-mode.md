@@ -7,7 +7,7 @@ If you apply the STIG fix for this finding it will cause grub to ask for autheni
 
 1. Edit this file: /etc/grub.d/10_linux  
 
-Find the line like this: 
+  Find the line like this: 
 ```
 echo "menuentry '$(echo "$os" | grub_quote)' ${CLASS}
 ```
@@ -25,4 +25,5 @@ echo "menuentry '$(echo "$os" | grub_quote)' --unrestricted ${CLASS}
 - https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options
 - https://askubuntu.com/questions/1088215/grub-2-avoid-unrestricted-boot-options-are-overwritten-with-kernel-updates
 - https://www.tenable.com/audits/items/DISA_STIG_Ubuntu_16.04_LTS_v2r3.audit:4f894c2e45255b2233084eab8d50abe1 (better STIG fix instructions) 
+- https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Password_protection_of_GRUB_edit_and_console_options_only
 

@@ -5,8 +5,7 @@
 
 If you apply the STIG fix for this finding it will cause grub to ask for authenication before booting. Ideally what you want is to only ask when going into single-user and maitenance modes. 
 
-1. Edit this file: /etc/grub.d/10_linux  
-
+1. Edit this file: /etc/grub.d/10_linux
 Find the line like this: 
 ```
 echo "menuentry '$(echo "$os" | grub_quote)' ${CLASS}

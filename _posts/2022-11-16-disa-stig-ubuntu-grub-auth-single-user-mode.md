@@ -20,7 +20,7 @@ echo "menuentry '$(echo "$os" | grub_quote)' --unrestricted ${CLASS}
 4. Reboot to see if it will boot like normal. 
 5. Also make test and make sure it ask for authenication when trying to boot into recovery mode. 
 
-#Resources:
+# Resources:
 - https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options
 - https://askubuntu.com/questions/1088215/grub-2-avoid-unrestricted-boot-options-are-overwritten-with-kernel-updates
 - https://www.tenable.com/audits/items/DISA_STIG_Ubuntu_16.04_LTS_v2r3.audit:4f894c2e45255b2233084eab8d50abe1 (better STIG fix instructions) 

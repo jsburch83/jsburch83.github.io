@@ -21,8 +21,8 @@ echo "menuentry '$(echo "$os" | grub_quote)' --unrestricted ${CLASS}
 5. Also make test and make sure it ask for authenication when trying to boot into recovery mode. 
 
 # Resources:
-- [1](https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options)
-- [2](https://askubuntu.com/questions/1088215/grub-2-avoid-unrestricted-boot-options-are-overwritten-with-kernel-updates)
-- [3](https://www.tenable.com/audits/items/DISA_STIG_Ubuntu_16.04_LTS_v2r3.audit:4f894c2e45255b2233084eab8d50abe1) (better STIG fix instructions) 
-- [4](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Password_protection_of_GRUB_edit_and_console_options_only)
+- [https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options](https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options)
+- [https://askubuntu.com/questions/1088215/grub-2-avoid-unrestricted-boot-options-are-overwritten-with-kernel-updates](https://askubuntu.com/questions/1088215/grub-2-avoid-unrestricted-boot-options-are-overwritten-with-kernel-updates)
+- [https://www.tenable.com/audits/items/DISA_STIG_Ubuntu_16.04_LTS_v2r3.audit:4f894c2e45255b2233084eab8d50abe1](https://www.tenable.com/audits/items/DISA_STIG_Ubuntu_16.04_LTS_v2r3.audit:4f894c2e45255b2233084eab8d50abe1) <--(better STIG fix instructions) 
+- [https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Password_protection_of_GRUB_edit_and_console_options_only](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Password_protection_of_GRUB_edit_and_console_options_only)
 

@@ -18,7 +18,7 @@ echo "menuentry '$(echo "$os" | grub_quote)' --unrestricted ${CLASS}
 
 3. Then run **sudo update-grub**
 4. Reboot to see if it will boot like normal. 
-5. Also make test and make sure it ask for authenication when trying to boot into recovery mode. 
+5. Make sure you test trying boot into recovery mode or single user mode - to make sure the STIG is applied. 
 
 # Resources:
 - [https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options](https://wiki.archlinux.org/title/Talk:GRUB/Tips_and_tricks#Password_protection_of_non_local_system_boot_options)

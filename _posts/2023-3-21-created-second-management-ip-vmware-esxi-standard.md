@@ -1,9 +1,9 @@
 # Add Secondary VMkernel Management IP To ESXi Host
 ## Using the same TCP/IP Stack and vSwitch
 
-1. SSH into the ESXi host as root
+1. In the web gui, Create a new port group to use with your new management vmkernel interface. For this example let's call it, "ESXi New MGMT Port Group"
 
-2. Create a new port group to use with your new management vmkernel interface. For this example let's call it, "ESXi New MGMT Port Group"
+2. SSH into the ESXi host as root 
 
 3. Create a new interface "vmk2" and assign it to the new port group:
 ```
@@ -19,7 +19,7 @@ esxcli network ip interface ipv4 set -i vmk2 -t static -g 192.168.1.1 -I 192.168
 esxcli network ip interface tag add -i vmk2 -t Management
 ```
 
-
+6. Test
 
 
 # Sources/Cited Work

@@ -23,4 +23,4 @@ esxcli network ip interface tag add -i vmk2 -t Management
 # Sources/Cited Work
 - [https://kb.vmware.com/s/article/2010877](https://kb.vmware.com/s/article/2010877)
 - [https://learning.oreilly.com/library/view/vmware-vsphere-6-7/9781789953008/d39ecd8d-6410-465e-95c2-88beaa5c9480.xhtml](https://learning.oreilly.com/library/view/vmware-vsphere-6-7/9781789953008/d39ecd8d-6410-465e-95c2-88beaa5c9480.xhtml)
--[https://gainanov.pro/eng-blog/sysad/esxi-cli-networking](https://gainanov.pro/eng-blog/sysad/esxi-cli-networking)
+- [https://gainanov.pro/eng-blog/sysad/esxi-cli-networking](https://gainanov.pro/eng-blog/sysad/esxi-cli-networking)

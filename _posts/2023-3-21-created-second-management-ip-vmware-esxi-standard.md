@@ -9,7 +9,7 @@
 ```
 esxcli network ip interface add -p "ESXi New MGMT Port Group" -i vmk2
 ```
-4. Give the new interface it's IP config. Remember to change it to your desired IPs.  
+4. Give the new interface it's IP config. (Remember to change it to your desired IPs)  
 ```
 esxcli network ip interface ipv4 set -i vmk2 -t static -g 192.168.1.1 -I 192.168.1.5 -N 255.255.255.0
 ```
@@ -17,7 +17,6 @@ esxcli network ip interface ipv4 set -i vmk2 -t static -g 192.168.1.1 -I 192.168
 ```
 esxcli network ip interface tag add -i vmk2 -t Management
 ```
-
 6. Test
 
 

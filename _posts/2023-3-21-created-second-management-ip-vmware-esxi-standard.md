@@ -1,5 +1,6 @@
 # Add Secondary VMkernel Management IP To ESXi Host
 ## Using the same TCP/IP Stack and vSwitch
+### 2 different subnets 
 
 1. In the web gui, Create a new port group to use with your new management vmkernel interface. For this example let's call it, "ESXi New MGMT Port Group"
 
